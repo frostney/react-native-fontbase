@@ -1,6 +1,6 @@
 {
   "name": "react-native-fontbase",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Defining font sizes in React Native",
   "main": "dist/react-native-fontbase.js",
   "jsnext:main": "dist/react-native-fontbase.es2015.js",
@@ -51,11 +51,7 @@
     "url": "https://github.com/frostney/react-intl-native/issues"
   },
   "homepage": "https://github.com/frostney/react-intl-native#readme",
-  "dependencies": {
-    "react-intl": "^2.0.0-rc-1",
-    "react-intl-rawformat": "^1.0.2",
-    "react-native": "^0.22.2"
-  },
+  "dependencies": {},
   "devDependencies": {
     "ava": "^0.13.0",
     "babel-eslint": "^6.0.2",
@@ -71,9 +67,11 @@
     "eslint-plugin-react": "^4.2.3",
     "in-publish": "^2.0.0",
     "nyc": "^6.1.1",
+    "react": "^0.14.8",
     "react-addons-test-utils": "^0.14.8",
     "react-dom": "^0.14.8",
+    "react-native": "^0.24.1",
     "rimraf": "^2.5.2",
-    "rollup-babel-lib-bundler": "^2.5.5"
+    "rollup-babel-lib-bundler": "^3.0.1"
   }
 }
